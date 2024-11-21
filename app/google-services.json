@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604740799748",
+    "project_id": "snapverse999",
+    "storage_bucket": "snapverse999.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604740799748:android:005c022692c0d0fb0d1451",
+        "android_client_info": {
+          "package_name": "com.example.snapverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3xj032VIv0hxnpbj1Lfay85qAvjota38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

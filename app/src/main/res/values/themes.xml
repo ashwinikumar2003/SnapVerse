@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme based on Material3 -->
+    <style name="Base.Theme.SnapVerse" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- You can define light/dark theme colors here if needed -->
+    </style>
+
+    <style name="Theme.SnapVerse" parent="Base.Theme.SnapVerse" />
+
+    <!-- Oceanic Theme extending Base.Theme.SnapVerse -->
+    <style name="Theme.SnapVerse.Ocean" parent="Base.Theme.SnapVerse">
+        <item name="colorPrimary">@color/colorPrimary_Ocean</item>
+        <item name="colorSecondary">@color/colorAccent_Ocean</item>
+        <item name="colorSurface">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+    </style>
+
+    <!-- Forest Theme extending Base.Theme.SnapVerse -->
+    <style name="Theme.SnapVerse.Forest" parent="Base.Theme.SnapVerse">
+        <item name="colorPrimary">@color/colorPrimary_Forest</item>
+        <item name="colorSecondary">@color/colorAccent_Forest</item>
+        <item name="colorSurface">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+    </style>
+
+    <!-- Sunset Theme extending Base.Theme.SnapVerse -->
+    <style name="Theme.SnapVerse.Sunset" parent="Base.Theme.SnapVerse">
+        <item name="colorPrimary">@color/colorPrimary_Sunset</item>
+        <item name="colorSecondary">@color/colorAccent_Sunset</item>
+        <item name="colorSurface">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="Widget.SnapVerse.Button" parent="Widget.Material3.Button">
+    <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+</resources>
