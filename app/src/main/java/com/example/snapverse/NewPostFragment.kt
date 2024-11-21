@@ -29,8 +29,9 @@ class NewPostFragment : Fragment() {
     private lateinit var postButton: Button
     private lateinit var selectedImagePreview: ImageView
     private var selectedImageUri: Uri? = null
-    private val cloudinary = Cloudinary("cloudinary://746489139757766:VaAtHH4kJPZF0x2lTQPT4WqAO4A@dils6uigi")
-//    private val cloudinary = Cloudinary("cloudinary://${BuildConfig.CLOUDINARY_API_KEY}:${BuildConfig.CLOUDINARY_API_SECRET}@${BuildConfig.CLOUDINARY_CLOUD_NAME}")
+    // Enter your Cloudinary credentials here....
+    private val cloudinary = Cloudinary("cloudinary://${BuildConfig.CLOUDINARY_API_KEY}:${BuildConfig.CLOUDINARY_API_SECRET}@${BuildConfig.CLOUDINARY_CLOUD_NAME}")
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
